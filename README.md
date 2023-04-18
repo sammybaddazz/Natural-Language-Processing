@@ -2,11 +2,11 @@
 I am creating an NLG project. I will create a data warehouse with 20 GB of xml files. They contain product information for automotive parts. I want to generate new content based off the reading of the data files.
 Project Scope:
 1.	Ingestion:
-a.	Set up the data warehouse:
-b.	Choose a data warehouse platform that suits your requirements and budget
-c.	Create a new database/schema within the data warehouse to hold the PIES data.
-d.	Create the necessary tables with appropriate columns and data types to hold the PIES data.
-e.	Ensure that the data warehouse can handle the size of your PIES files.
+  a.	Set up the data warehouse:
+  b.	Choose a data warehouse platform that suits your requirements and budget
+  c.	Create a new database/schema within the data warehouse to hold the PIES data.
+  d.	Create the necessary tables with appropriate columns and data types to hold the PIES data.
+  e.	Ensure that the data warehouse can handle the size of your PIES files.
 f.	Set up Apache NiFi:
 g.	Install and configure NiFi on a machine that has access to both the source and destination locations.
 h.	Set up a NiFi processor group to handle the PIES data ingestion process.
